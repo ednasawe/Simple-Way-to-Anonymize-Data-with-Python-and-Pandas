@@ -58,7 +58,8 @@ jsondata=json.load(openfile)
 df=pd.DataFrame(jsondata)
 
 openfile.close()
-print(df) ```
+print(df)
+```
 
 
 For the analysis step, we will use the three dataset images:
@@ -70,6 +71,31 @@ df.head()
 
 
 Output:
+
+```
+bounding_boxes  \
+0  {'y1': 0.51535654, 'y0': 0.50138527, 'x0': 0.6...   
+1  {'y1': 0.51063389, 'y0': 0.4752138, 'x0': 0.64...   
+2  {'y1': 0.4752619, 'y0': 0.4604398, 'x0': 0.179...   
+3  {'y1': 0.17023697, 'y0': 0.15516002, 'x0': 0.5...   
+
+                                id  
+0  imagesh_htl67e00_2063610012.png  
+1  imagesh_htl67e00_2063610012.png  
+2  imagesh_htl67e00_2063610012.png  
+3  imagesh_htl67e00_2063610012.png  
+```
+
+and
+
+```
+bounding_boxes	id
+0	{'y1': 0.51535654, 'y0': 0.50138527, 'x0': 0.6...	imagesh_htl67e00_2063610012.png
+1	{'y1': 0.51063389, 'y0': 0.4752138, 'x0': 0.64...	imagesh_htl67e00_2063610012.png
+2	{'y1': 0.4752619, 'y0': 0.4604398, 'x0': 0.179...	imagesh_htl67e00_2063610012.png
+3	{'y1': 0.17023697, 'y0': 0.15516002, 'x0': 0.5...	imagesh_htl67e00_2063610012.png
+```
+
 
 
 
