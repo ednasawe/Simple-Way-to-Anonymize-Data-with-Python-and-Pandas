@@ -71,3 +71,20 @@ Output:
 
 
 
+
+
+
+
+
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+
+## License
+[Apache License 2.0](https://github.com/ednasawe/Simple-Way-to-Anonymize-Data-with-Python-and-Pandas/blob/master/LICENSE)
+[MIT](https://choosealicense.com/licenses/mit/)
+
+Copyright [2019] [Edna Sawe]
+
+   Licensed under the Apache License, Version 2.0 (the "License")
