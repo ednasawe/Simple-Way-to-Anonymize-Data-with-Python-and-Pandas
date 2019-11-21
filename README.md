@@ -1,4 +1,4 @@
-# Simple-Way-to-Anonymize-Data-with-Python-and-Pandas
+# Simple Way to Anonymize Data with Python and Pandas
 Recently, I got into a project challenge that requires one to build a machine learning algorithm
 that will be able to anonymize invoices' personal information data. 
 
@@ -14,8 +14,7 @@ original data. So I did a short script that will perform the tasks and change th
 preserving the same key information. 
 
 
-Below, I will detail every step that I took, together with the AWS and Github links for the source code
-to highlight the journey and steps. 
+Below, I will detail every step that I took, together with the [AWS] (https://ap-south-1.console.aws.amazon.com/console/home?region=ap-south-1#) and [Github] (https://github.com/ednasawe/Simple-Way-to-Anonymize-Data-with-Python-and-Pandas/blob/master/README.md) links for the source code and my [blogpost] (https://techauthorityorg.wordpress.com/wp-admin/post.php?post=2216&action=edit) to highlight the journey and steps. 
 
 
 Prepare and develop a system to replace the content into an anonymized dataset that uses a machine-learning
