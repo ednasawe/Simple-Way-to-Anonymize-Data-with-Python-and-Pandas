@@ -53,7 +53,12 @@ in this blog post. Lastly, we will be putting some of the code into a file calle
 next to the notebook.
 
 
-```df = pd.read_csv("../desktop/SAP Data Analytics ML Challenge/leaderboard_task2") ```
+```openfile=open('imagesh_htl67e00_2063610012.json')
+jsondata=json.load(openfile)
+df=pd.DataFrame(jsondata)
+
+openfile.close()
+print(df) ```
 
 
 For the analysis step, we will use the three dataset images:
