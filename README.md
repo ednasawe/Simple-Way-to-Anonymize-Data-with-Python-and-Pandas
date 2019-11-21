@@ -31,8 +31,9 @@ To start, we will be using a file that contains only three images that must be a
 large dataset. The zip folder with the three images contains a PNG file, a PNG file with the bounding boxes and
 lastly a JSON file with the coordinates of the bounding boxes. So, we will start with the three images first ...
 
-## I will be using Jupyter notebook as my environment. First, let us import all the required libraries:
-**
+### I will be using Jupyter notebook as my environment. First, let us import all the required libraries:
+
+'''
 import pandas as pd
 import numpy as np
 import scipy.stats
@@ -40,7 +41,7 @@ import scipy.stats
 import matplotlib.pyplot as plt
 from sklearn_pandas import DataFrameMapper
 from sklearn.preprocessing import LabelEncoder
-**
+'''
 
 I will assume that you are familiar with the libraries that we have imported above. For instance, the sklearn_pandas
 is a conventional library that tries to bridge the gap between two packages. It gets to provide a DataFrameMapper
@@ -53,13 +54,15 @@ in this blog post. Lastly, we will be putting some of the code into a file calle
 next to the notebook.
 
 
-**df = pd.read_csv("../desktop/SAP Data Analytics ML Challenge/leaderboard_task2") **
+'''df = pd.read_csv("../desktop/SAP Data Analytics ML Challenge/leaderboard_task2") '''
 
 
 For the analysis step, we will use the three dataset images:
 
+'''
 df.shape
 df.head()
+'''
 
 
 Output:
