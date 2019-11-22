@@ -14,7 +14,7 @@ original data. So I did a short script that will perform the tasks and change th
 preserving the same key information. 
 
 
-Below, I will detail every step that I took, together with the [AWS](https://ap-south-1.console.aws.amazon.com/console/home?region=ap-south-1#) and [Github](https://github.com/ednasawe/Simple-Way-to-Anonymize-Data-with-Python-and-Pandas/blob/master/README.md) links for the source code and my [blogpost](https://techauthorityorg.wordpress.com/) to highlight the journey and steps. 
+Below, I will detail every step that I took, together with the [AWS](https://ap-south-1.console.aws.amazon.com/console/home?region=ap-south-1#) and [Github](https://github.com/ednasawe/Simple-Way-to-Anonymize-Data-with-Python-and-Pandas/blob/master/README.md) links for the source code and my [blogpost](https://techauthorityorg.wordpress.com/2019/11/22/simple-way-to-anonymize-data-with-python-and-pandas/) to highlight the journey and steps. 
 
 
 Prepare and develop a system to replace the content into an anonymized dataset that uses a machine-learning
